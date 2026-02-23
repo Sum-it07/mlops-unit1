@@ -40,6 +40,8 @@ def main() -> None:
         print(f"  max: {max(values):.2f}")
         print(f"  mean: {mean(values):.2f}")
 
+    print("\nProcessed numeric columns: age, score")
+
 
 if __name__ == "__main__":
     main()
