@@ -41,6 +41,7 @@ def main() -> None:
         print(f"  mean: {mean(values):.2f}")
 
     print("\nProcessed numeric columns: age, score")
+    print(f"Total records processed: {len(rows)}")
 
 
 if __name__ == "__main__":
