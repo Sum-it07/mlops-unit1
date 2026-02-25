@@ -83,7 +83,7 @@ scikit_learn==1.8.0
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Sum-it07/mlops-unit1.git
    cd mlops-unit1
    ```
 
