@@ -14,9 +14,10 @@ This repository contains solutions to the **MLOps Practice Exercise Questions** 
 
 ```
 mlops-unit1/
-├── data/
-│   └── sample_data.csv
-├── dataset_stats.py
+├── Exercise 1/
+│   ├── data/
+│   │   └── data.csv
+│   └── dataset_stats.py
 ├── Exercise 2/
 │   ├── data/
 │   │   └── data.csv
@@ -82,7 +83,7 @@ scikit_learn==1.8.0
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Sum-it07/mlops-unit1.git
    cd mlops-unit1
    ```
 
