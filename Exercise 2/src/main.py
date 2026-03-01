@@ -17,7 +17,7 @@ print(df)
 from sklearn.model_selection import train_test_split
 x=df[['f1','f2']]
 y=df['output']
-x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.4,random_state=100)
+x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.4,random_state=1)
 
 #Training Logistic Regression model
 from sklearn.linear_model import LogisticRegression
@@ -25,7 +25,7 @@ logReg=LogisticRegression()
 logReg.fit(x_train,y_train)
 
 y_predict=logReg.predict(x_test)
-print(y_predict)
+# print(y_predict)
 
 #Printing model Accuracy
 from sklearn import metrics
